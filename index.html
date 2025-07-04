@@ -1,17 +1,32 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>ND-Adaptive Strengths Survey</title>
+  <script defer src="script.js"></script>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 40px; background: #f9f9f9; }
+    h1 { text-align: center; }
+    .question-block { margin-bottom: 25px; background: #fff; padding: 20px; border-radius: 8px;
+                      box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+    .question-text { margin-bottom: 10px; font-weight: bold; }
+    .options label { display: block; margin-bottom: 5px; }
+    button { display: block; margin: 30px auto; padding: 10px 20px; font-size: 16px;
+             background: #4CAF50; color: white; border: none; border-radius: 5px; cursor: pointer; }
+    button:hover { background: #45a049; }
+    #results { margin-top: 40px; padding: 20px; background: #e9ffe9; border: 1px solid #4CAF50; border-radius: 8px; }
+  </style>
 </head>
 <body>
   <h1>ND-Adaptive Strengths Survey</h1>
-  <p>Loading questions...</p>
-  <script>
-    fetch('nd_adaptive_24traits_96questions.json')
-      .then(response => response.json())
-      .then(data => console.log('Loaded', data));
-  </script>
+  <form id="surveyForm">
+    <div id="questionsContainer">Loading questions...</div>
+    <button type="submit">Submit</button>
+  </form>
+  <div id="results" style="display:none;"></div>
+  <button id="downloadBtn" style="display:none;">Download Results (PDF)</button>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
 </body>
 </html>

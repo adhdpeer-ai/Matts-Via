@@ -12,8 +12,8 @@
     ]
   },
   {
-    "trait": "Creative Divergence",
-    "question_id": "CRE_2",
+    "trait": "",
+    "question_id": "_2",
     "text": "I see links between things others view as unrelated.",
     "options": [
       "1 - Very much unlike me",
@@ -24,8 +24,8 @@
     ]
   },
   {
-    "trait": "Creative Divergence",
-    "question_id": "CRE_3",
+    "trait": "",
+    "question_id": "_3",
     "text": "My ideas often challenge the status quo.",
     "options": [
       "1 - Very much unlike me",
@@ -36,8 +36,8 @@
     ]
   },
   {
-    "trait": "Creative Divergence",
-    "question_id": "CRE_4",
+    "trait": "",
+    "question_id": "_4",
     "text": "I thrive in ambiguity and open-ended creation.",
     "options": [
       "1 - Very much unlike me",
@@ -49,7 +49,7 @@
   },
   {
     "trait": "Intense Curiosity",
-    "question_id": "INT_1",
+    "question_id": "INT_5",
     "text": "I get completely absorbed in exploring new concepts.",
     "options": [
       "1 - Very much unlike me",
@@ -60,8 +60,8 @@
     ]
   },
   {
-    "trait": "Intense Curiosity",
-    "question_id": "INT_2",
+    "trait": "",
+    "question_id": "_6",
     "text": "My curiosity often pulls me into deep dives and tangents.",
     "options": [
       "1 - Very much unlike me",
@@ -72,8 +72,8 @@
     ]
   },
   {
-    "trait": "Intense Curiosity",
-    "question_id": "INT_3",
+    "trait": "",
+    "question_id": "_7",
     "text": "I ask big questions even if they don\u2019t have answers.",
     "options": [
       "1 - Very much unlike me",
@@ -84,8 +84,8 @@
     ]
   },
   {
-    "trait": "Intense Curiosity",
-    "question_id": "INT_4",
+    "trait": "",
+    "question_id": "_8",
     "text": "I often chase insights beyond what's expected.",
     "options": [
       "1 - Very much unlike me",
@@ -97,7 +97,7 @@
   },
   {
     "trait": "Pattern-Based Reasoning",
-    "question_id": "PAT_1",
+    "question_id": "PAT_9",
     "text": "I intuitively notice patterns others miss.",
     "options": [
       "1 - Very much unlike me",
@@ -108,8 +108,8 @@
     ]
   },
   {
-    "trait": "Pattern-Based Reasoning",
-    "question_id": "PAT_2",
+    "trait": "",
+    "question_id": "_10",
     "text": "I often sense a bigger system behind situations.",
     "options": [
       "1 - Very much unlike me",
@@ -120,8 +120,8 @@
     ]
   },
   {
-    "trait": "Pattern-Based Reasoning",
-    "question_id": "PAT_3",
+    "trait": "",
+    "question_id": "_11",
     "text": "I question surface-level explanations.",
     "options": [
       "1 - Very much unlike me",
@@ -132,8 +132,8 @@
     ]
   },
   {
-    "trait": "Pattern-Based Reasoning",
-    "question_id": "PAT_4",
+    "trait": "",
+    "question_id": "_12",
     "text": "I revisit ideas until deeper meaning emerges.",
     "options": [
       "1 - Very much unlike me",
@@ -145,7 +145,7 @@
   },
   {
     "trait": "Quest for Knowledge",
-    "question_id": "QUE_1",
+    "question_id": "QUE_13",
     "text": "When I care about a subject, I absorb knowledge rapidly.",
     "options": [
       "1 - Very much unlike me",
@@ -156,8 +156,8 @@
     ]
   },
   {
-    "trait": "Quest for Knowledge",
-    "question_id": "QUE_2",
+    "trait": "",
+    "question_id": "_14",
     "text": "I explore ideas through bursts of intense focus.",
     "options": [
       "1 - Very much unlike me",
@@ -168,8 +168,8 @@
     ]
   },
   {
-    "trait": "Quest for Knowledge",
-    "question_id": "QUE_3",
+    "trait": "",
+    "question_id": "_15",
     "text": "I revisit interests cyclically, often with renewed depth.",
     "options": [
       "1 - Very much unlike me",
@@ -180,8 +180,8 @@
     ]
   },
   {
-    "trait": "Quest for Knowledge",
-    "question_id": "QUE_4",
+    "trait": "",
+    "question_id": "_16",
     "text": "I teach myself new skills in unconventional ways.",
     "options": [
       "1 - Very much unlike me",
@@ -193,7 +193,7 @@
   },
   {
     "trait": "Big Picture Wiring",
-    "question_id": "BIG_1",
+    "question_id": "BIG_17",
     "text": "I naturally zoom out and consider multiple layers at once.",
     "options": [
       "1 - Very much unlike me",
@@ -204,8 +204,8 @@
     ]
   },
   {
-    "trait": "Big Picture Wiring",
-    "question_id": "BIG_2",
+    "trait": "",
+    "question_id": "_18",
     "text": "People often come to me for unusual insight or framing.",
     "options": [
       "1 - Very much unlike me",
@@ -216,8 +216,8 @@
     ]
   },
   {
-    "trait": "Big Picture Wiring",
-    "question_id": "BIG_3",
+    "trait": "",
+    "question_id": "_19",
     "text": "I can hold contradictions in mind while still moving forward.",
     "options": [
       "1 - Very much unlike me",
@@ -228,8 +228,8 @@
     ]
   },
   {
-    "trait": "Big Picture Wiring",
-    "question_id": "BIG_4",
+    "trait": "",
+    "question_id": "_20",
     "text": "I orient around meaning even when others fixate on facts.",
     "options": [
       "1 - Very much unlike me",
@@ -241,7 +241,7 @@
   },
   {
     "trait": "Fortitude",
-    "question_id": "FOR_1",
+    "question_id": "FOR_21",
     "text": "I often keep going despite setbacks others might not see.",
     "options": [
       "1 - Very much unlike me",
@@ -252,8 +252,8 @@
     ]
   },
   {
-    "trait": "Fortitude",
-    "question_id": "FOR_2",
+    "trait": "",
+    "question_id": "_22",
     "text": "I act even when things feel stacked against me.",
     "options": [
       "1 - Very much unlike me",
@@ -264,8 +264,8 @@
     ]
   },
   {
-    "trait": "Fortitude",
-    "question_id": "FOR_3",
+    "trait": "",
+    "question_id": "_23",
     "text": "I push through inner resistance to do what matters.",
     "options": [
       "1 - Very much unlike me",
@@ -276,8 +276,8 @@
     ]
   },
   {
-    "trait": "Fortitude",
-    "question_id": "FOR_4",
+    "trait": "",
+    "question_id": "_24",
     "text": "People may call it stubbornness, I call it staying the course.",
     "options": [
       "1 - Very much unlike me",
@@ -289,7 +289,7 @@
   },
   {
     "trait": "Persistence",
-    "question_id": "PER_1",
+    "question_id": "PER_25",
     "text": "I recover from failures and come back stronger.",
     "options": [
       "1 - Very much unlike me",
@@ -300,8 +300,8 @@
     ]
   },
   {
-    "trait": "Persistence",
-    "question_id": "PER_2",
+    "trait": "",
+    "question_id": "_26",
     "text": "I surprise myself with my ability to reset after chaos.",
     "options": [
       "1 - Very much unlike me",
@@ -312,8 +312,8 @@
     ]
   },
   {
-    "trait": "Persistence",
-    "question_id": "PER_3",
+    "trait": "",
+    "question_id": "_27",
     "text": "I don't always take the straight route, but I always re-engage.",
     "options": [
       "1 - Very much unlike me",
@@ -324,8 +324,8 @@
     ]
   },
   {
-    "trait": "Persistence",
-    "question_id": "PER_4",
+    "trait": "",
+    "question_id": "_28",
     "text": "Persistence for me often looks nonlinear and adaptive.",
     "options": [
       "1 - Very much unlike me",
@@ -337,7 +337,7 @@
   },
   {
     "trait": "Radical Honesty",
-    "question_id": "RAD_1",
+    "question_id": "RAD_29",
     "text": "I speak honestly even when it\u2019s awkward.",
     "options": [
       "1 - Very much unlike me",
@@ -348,8 +348,8 @@
     ]
   },
   {
-    "trait": "Radical Honesty",
-    "question_id": "RAD_2",
+    "trait": "",
+    "question_id": "_30",
     "text": "I find it hard to pretend or perform socially.",
     "options": [
       "1 - Very much unlike me",
@@ -360,8 +360,8 @@
     ]
   },
   {
-    "trait": "Radical Honesty",
-    "question_id": "RAD_3",
+    "trait": "",
+    "question_id": "_31",
     "text": "I value realness more than polish.",
     "options": [
       "1 - Very much unlike me",
@@ -372,8 +372,8 @@
     ]
   },
   {
-    "trait": "Radical Honesty",
-    "question_id": "RAD_4",
+    "trait": "",
+    "question_id": "_32",
     "text": "I try to live in alignment with what I truly believe.",
     "options": [
       "1 - Very much unlike me",
@@ -385,7 +385,7 @@
   },
   {
     "trait": "Energy",
-    "question_id": "ENE_1",
+    "question_id": "ENE_33",
     "text": "When I\u2019m engaged, my energy is full-on.",
     "options": [
       "1 - Very much unlike me",
@@ -396,8 +396,8 @@
     ]
   },
   {
-    "trait": "Energy",
-    "question_id": "ENE_2",
+    "trait": "",
+    "question_id": "_34",
     "text": "I bring passion and motion to the things I care about.",
     "options": [
       "1 - Very much unlike me",
@@ -408,8 +408,8 @@
     ]
   },
   {
-    "trait": "Energy",
-    "question_id": "ENE_3",
+    "trait": "",
+    "question_id": "_35",
     "text": "I often need to move or speak quickly to stay in sync with myself.",
     "options": [
       "1 - Very much unlike me",
@@ -420,8 +420,8 @@
     ]
   },
   {
-    "trait": "Energy",
-    "question_id": "ENE_4",
+    "trait": "",
+    "question_id": "_36",
     "text": "My presence can be both contagious and overwhelming.",
     "options": [
       "1 - Very much unlike me",
@@ -433,7 +433,7 @@
   },
   {
     "trait": "Emotional Attachment",
-    "question_id": "EMO_1",
+    "question_id": "EMO_37",
     "text": "I long for real closeness with people I trust.",
     "options": [
       "1 - Very much unlike me",
@@ -444,8 +444,8 @@
     ]
   },
   {
-    "trait": "Emotional Attachment",
-    "question_id": "EMO_2",
+    "trait": "",
+    "question_id": "_38",
     "text": "Surface-level interactions leave me feeling empty.",
     "options": [
       "1 - Very much unlike me",
@@ -456,8 +456,8 @@
     ]
   },
   {
-    "trait": "Emotional Attachment",
-    "question_id": "EMO_3",
+    "trait": "",
+    "question_id": "_39",
     "text": "I form intense emotional bonds quickly.",
     "options": [
       "1 - Very much unlike me",
@@ -468,8 +468,8 @@
     ]
   },
   {
-    "trait": "Emotional Attachment",
-    "question_id": "EMO_4",
+    "trait": "",
+    "question_id": "_40",
     "text": "I care deeply, even if I don\u2019t always show it outwardly.",
     "options": [
       "1 - Very much unlike me",
@@ -481,7 +481,7 @@
   },
   {
     "trait": "Empathy",
-    "question_id": "EMP_1",
+    "question_id": "EMP_41",
     "text": "I easily absorb other people\u2019s emotions.",
     "options": [
       "1 - Very much unlike me",
@@ -492,8 +492,8 @@
     ]
   },
   {
-    "trait": "Empathy",
-    "question_id": "EMP_2",
+    "trait": "",
+    "question_id": "_42",
     "text": "I sometimes feel too much, even from subtle cues.",
     "options": [
       "1 - Very much unlike me",
@@ -504,8 +504,8 @@
     ]
   },
   {
-    "trait": "Empathy",
-    "question_id": "EMP_3",
+    "trait": "",
+    "question_id": "_43",
     "text": "Helping others often feels instinctual.",
     "options": [
       "1 - Very much unlike me",
@@ -516,8 +516,8 @@
     ]
   },
   {
-    "trait": "Empathy",
-    "question_id": "EMP_4",
+    "trait": "",
+    "question_id": "_44",
     "text": "I struggle when I can\u2019t alleviate others' pain.",
     "options": [
       "1 - Very much unlike me",
@@ -528,8 +528,8 @@
     ]
   },
   {
-    "trait": "Social Intuition / People Skills ",
-    "question_id": "SOC_1",
+    "trait": "Social Intuition / People Skills",
+    "question_id": "SOC_45",
     "text": "I pick up on social undercurrents others miss.",
     "options": [
       "1 - Very much unlike me",
@@ -540,8 +540,8 @@
     ]
   },
   {
-    "trait": "Social Intuition / People Skills ",
-    "question_id": "SOC_2",
+    "trait": "",
+    "question_id": "_46",
     "text": "I feel out of place when social norms feel fake.",
     "options": [
       "1 - Very much unlike me",
@@ -552,8 +552,8 @@
     ]
   },
   {
-    "trait": "Social Intuition / People Skills ",
-    "question_id": "SOC_3",
+    "trait": "",
+    "question_id": "_47",
     "text": "I read emotional tone faster than most.",
     "options": [
       "1 - Very much unlike me",
@@ -564,8 +564,8 @@
     ]
   },
   {
-    "trait": "Social Intuition / People Skills ",
-    "question_id": "SOC_4",
+    "trait": "",
+    "question_id": "_48",
     "text": "I can be hyperaware of what people aren\u2019t saying.",
     "options": [
       "1 - Very much unlike me",
@@ -576,8 +576,8 @@
     ]
   },
   {
-    "trait": "Social Collaboration ",
-    "question_id": "SOC_1",
+    "trait": "Social Collaboration",
+    "question_id": "SOC_49",
     "text": "When I belong, I show fierce loyalty.",
     "options": [
       "1 - Very much unlike me",
@@ -588,8 +588,8 @@
     ]
   },
   {
-    "trait": "Social Collaboration ",
-    "question_id": "SOC_2",
+    "trait": "",
+    "question_id": "_50",
     "text": "I commit fully to causes or people I believe in.",
     "options": [
       "1 - Very much unlike me",
@@ -600,8 +600,8 @@
     ]
   },
   {
-    "trait": "Social Collaboration ",
-    "question_id": "SOC_3",
+    "trait": "",
+    "question_id": "_51",
     "text": "I thrive when part of something meaningful.",
     "options": [
       "1 - Very much unlike me",
@@ -612,8 +612,8 @@
     ]
   },
   {
-    "trait": "Social Collaboration ",
-    "question_id": "SOC_4",
+    "trait": "",
+    "question_id": "_52",
     "text": "My loyalty sometimes outlasts what\u2019s healthy.",
     "options": [
       "1 - Very much unlike me",
@@ -625,7 +625,7 @@
   },
   {
     "trait": "Societal Skills",
-    "question_id": "SOC_1",
+    "question_id": "SOC_53",
     "text": "I\u2019m highly sensitive to injustice or hypocrisy.",
     "options": [
       "1 - Very much unlike me",
@@ -636,8 +636,8 @@
     ]
   },
   {
-    "trait": "Societal Skills",
-    "question_id": "SOC_2",
+    "trait": "",
+    "question_id": "_54",
     "text": "Rules matter less to me than fairness.",
     "options": [
       "1 - Very much unlike me",
@@ -648,8 +648,8 @@
     ]
   },
   {
-    "trait": "Societal Skills",
-    "question_id": "SOC_3",
+    "trait": "",
+    "question_id": "_55",
     "text": "I speak up when something feels wrong.",
     "options": [
       "1 - Very much unlike me",
@@ -660,8 +660,8 @@
     ]
   },
   {
-    "trait": "Societal Skills",
-    "question_id": "SOC_4",
+    "trait": "",
+    "question_id": "_56",
     "text": "Even small unfairnesses can gnaw at me.",
     "options": [
       "1 - Very much unlike me",
@@ -673,7 +673,7 @@
   },
   {
     "trait": "Group Responsibility",
-    "question_id": "GRO_1",
+    "question_id": "GRO_57",
     "text": "I tend to take charge in messy or ambiguous situations.",
     "options": [
       "1 - Very much unlike me",
@@ -684,8 +684,8 @@
     ]
   },
   {
-    "trait": "Group Responsibility",
-    "question_id": "GRO_2",
+    "trait": "",
+    "question_id": "_58",
     "text": "I lead by inspiring others, not by controlling them.",
     "options": [
       "1 - Very much unlike me",
@@ -696,8 +696,8 @@
     ]
   },
   {
-    "trait": "Group Responsibility",
-    "question_id": "GRO_3",
+    "trait": "",
+    "question_id": "_59",
     "text": "People sometimes follow me even when I don\u2019t intend it.",
     "options": [
       "1 - Very much unlike me",
@@ -708,8 +708,8 @@
     ]
   },
   {
-    "trait": "Group Responsibility",
-    "question_id": "GRO_4",
+    "trait": "",
+    "question_id": "_60",
     "text": "My leadership is driven by passion, not power.",
     "options": [
       "1 - Very much unlike me",
@@ -721,7 +721,7 @@
   },
   {
     "trait": "Emotional Regulation",
-    "question_id": "EMO_1",
+    "question_id": "EMO_61",
     "text": "I rebound emotionally even after intense lows.",
     "options": [
       "1 - Very much unlike me",
@@ -732,8 +732,8 @@
     ]
   },
   {
-    "trait": "Emotional Regulation",
-    "question_id": "EMO_2",
+    "trait": "",
+    "question_id": "_62",
     "text": "I know how to forgive when it serves me.",
     "options": [
       "1 - Very much unlike me",
@@ -744,8 +744,8 @@
     ]
   },
   {
-    "trait": "Emotional Regulation",
-    "question_id": "EMO_3",
+    "trait": "",
+    "question_id": "_63",
     "text": "I process feelings deeply, but don\u2019t stay stuck.",
     "options": [
       "1 - Very much unlike me",
@@ -756,8 +756,8 @@
     ]
   },
   {
-    "trait": "Emotional Regulation",
-    "question_id": "EMO_4",
+    "trait": "",
+    "question_id": "_64",
     "text": "I\u2019m learning to release, not just suppress.",
     "options": [
       "1 - Very much unlike me",
@@ -769,7 +769,7 @@
   },
   {
     "trait": "Selflessness",
-    "question_id": "SEL_1",
+    "question_id": "SEL_65",
     "text": "I prefer honesty over appearances.",
     "options": [
       "1 - Very much unlike me",
@@ -781,7 +781,7 @@
   },
   {
     "trait": "Modesty",
-    "question_id": "MOD_1",
+    "question_id": "MOD_66",
     "text": "I avoid sugarcoating things even when it\u2019s expected.",
     "options": [
       "1 - Very much unlike me",
@@ -793,7 +793,7 @@
   },
   {
     "trait": "Self Restraint",
-    "question_id": "SEL_1",
+    "question_id": "SEL_67",
     "text": "I\u2019m most comfortable when I can be fully myself.",
     "options": [
       "1 - Very much unlike me",
@@ -804,8 +804,8 @@
     ]
   },
   {
-    "trait": "Self Restraint",
-    "question_id": "SEL_2",
+    "trait": "",
+    "question_id": "_68",
     "text": "I\u2019d rather be real than be liked.",
     "options": [
       "1 - Very much unlike me",
@@ -817,7 +817,7 @@
   },
   {
     "trait": "Risk Awareness",
-    "question_id": "RIS_1",
+    "question_id": "RIS_69",
     "text": "I notice hidden risks others miss.",
     "options": [
       "1 - Very much unlike me",
@@ -828,8 +828,8 @@
     ]
   },
   {
-    "trait": "Risk Awareness",
-    "question_id": "RIS_2",
+    "trait": "",
+    "question_id": "_70",
     "text": "I anticipate what might go wrong without getting stuck in fear.",
     "options": [
       "1 - Very much unlike me",
@@ -840,8 +840,8 @@
     ]
   },
   {
-    "trait": "Risk Awareness",
-    "question_id": "RIS_3",
+    "trait": "",
+    "question_id": "_71",
     "text": "I\u2019ve learned to trust my gut about timing and danger.",
     "options": [
       "1 - Very much unlike me",
@@ -852,8 +852,8 @@
     ]
   },
   {
-    "trait": "Risk Awareness",
-    "question_id": "RIS_4",
+    "trait": "",
+    "question_id": "_72",
     "text": "I think ahead, even if I act fast.",
     "options": [
       "1 - Very much unlike me",
@@ -865,7 +865,7 @@
   },
   {
     "trait": "Self Control",
-    "question_id": "SEL_1",
+    "question_id": "SEL_73",
     "text": "I\u2019ve developed creative ways to manage my energy or focus.",
     "options": [
       "1 - Very much unlike me",
@@ -876,8 +876,8 @@
     ]
   },
   {
-    "trait": "Self Control",
-    "question_id": "SEL_2",
+    "trait": "",
+    "question_id": "_74",
     "text": "I\u2019m constantly testing strategies to stay on track.",
     "options": [
       "1 - Very much unlike me",
@@ -888,8 +888,8 @@
     ]
   },
   {
-    "trait": "Self Control",
-    "question_id": "SEL_3",
+    "trait": "",
+    "question_id": "_75",
     "text": "My routines often look messy but work for me.",
     "options": [
       "1 - Very much unlike me",
@@ -900,8 +900,8 @@
     ]
   },
   {
-    "trait": "Self Control",
-    "question_id": "SEL_4",
+    "trait": "",
+    "question_id": "_76",
     "text": "I don\u2019t regulate traditionally, but I adapt well.",
     "options": [
       "1 - Very much unlike me",
@@ -913,7 +913,7 @@
   },
   {
     "trait": "Aesthetic Appreciation",
-    "question_id": "AES_1",
+    "question_id": "AES_77",
     "text": "I\u2019m deeply moved by sound, light, or touch.",
     "options": [
       "1 - Very much unlike me",
@@ -924,8 +924,8 @@
     ]
   },
   {
-    "trait": "Aesthetic Appreciation",
-    "question_id": "AES_2",
+    "trait": "",
+    "question_id": "_78",
     "text": "I notice tiny sensory details that others miss.",
     "options": [
       "1 - Very much unlike me",
@@ -936,8 +936,8 @@
     ]
   },
   {
-    "trait": "Aesthetic Appreciation",
-    "question_id": "AES_3",
+    "trait": "",
+    "question_id": "_79",
     "text": "Aesthetic experiences can feel almost spiritual to me.",
     "options": [
       "1 - Very much unlike me",
@@ -948,8 +948,8 @@
     ]
   },
   {
-    "trait": "Aesthetic Appreciation",
-    "question_id": "AES_4",
+    "trait": "",
+    "question_id": "_80",
     "text": "Beautiful things help me feel grounded and alive.",
     "options": [
       "1 - Very much unlike me",
@@ -961,7 +961,7 @@
   },
   {
     "trait": "Humility",
-    "question_id": "HUM_1",
+    "question_id": "HUM_81",
     "text": "When I feel grateful, it hits me intensely.",
     "options": [
       "1 - Very much unlike me",
@@ -972,8 +972,8 @@
     ]
   },
   {
-    "trait": "Humility",
-    "question_id": "HUM_2",
+    "trait": "",
+    "question_id": "_82",
     "text": "I often thank others in heartfelt or unexpected ways.",
     "options": [
       "1 - Very much unlike me",
@@ -984,8 +984,8 @@
     ]
   },
   {
-    "trait": "Humility",
-    "question_id": "HUM_3",
+    "trait": "",
+    "question_id": "_83",
     "text": "I reflect on moments that brought me joy or connection.",
     "options": [
       "1 - Very much unlike me",
@@ -996,8 +996,8 @@
     ]
   },
   {
-    "trait": "Humility",
-    "question_id": "HUM_4",
+    "trait": "",
+    "question_id": "_84",
     "text": "Gratitude helps shift my emotional state.",
     "options": [
       "1 - Very much unlike me",
@@ -1009,7 +1009,7 @@
   },
   {
     "trait": "Optimism",
-    "question_id": "OPT_1",
+    "question_id": "OPT_85",
     "text": "I hold on to visions of what\u2019s possible.",
     "options": [
       "1 - Very much unlike me",
@@ -1020,8 +1020,8 @@
     ]
   },
   {
-    "trait": "Optimism",
-    "question_id": "OPT_2",
+    "trait": "",
+    "question_id": "_86",
     "text": "My sense of purpose drives me forward.",
     "options": [
       "1 - Very much unlike me",
@@ -1032,8 +1032,8 @@
     ]
   },
   {
-    "trait": "Optimism",
-    "question_id": "OPT_3",
+    "trait": "",
+    "question_id": "_87",
     "text": "Even when I\u2019m struggling, I believe in better days.",
     "options": [
       "1 - Very much unlike me",
@@ -1044,8 +1044,8 @@
     ]
   },
   {
-    "trait": "Optimism",
-    "question_id": "OPT_4",
+    "trait": "",
+    "question_id": "_88",
     "text": "I invest emotionally in long-term change.",
     "options": [
       "1 - Very much unlike me",
@@ -1057,7 +1057,7 @@
   },
   {
     "trait": "Redemptive Absurdism",
-    "question_id": "RED_1",
+    "question_id": "RED_89",
     "text": "I use humor to cope with difficulty.",
     "options": [
       "1 - Very much unlike me",
@@ -1068,8 +1068,8 @@
     ]
   },
   {
-    "trait": "Redemptive Absurdism",
-    "question_id": "RED_2",
+    "trait": "",
+    "question_id": "_90",
     "text": "I often find joy in the surreal or ridiculous.",
     "options": [
       "1 - Very much unlike me",
@@ -1080,8 +1080,8 @@
     ]
   },
   {
-    "trait": "Redemptive Absurdism",
-    "question_id": "RED_3",
+    "trait": "",
+    "question_id": "_91",
     "text": "My humor doesn't always make sense to others, but it lifts me.",
     "options": [
       "1 - Very much unlike me",
@@ -1092,8 +1092,8 @@
     ]
   },
   {
-    "trait": "Redemptive Absurdism",
-    "question_id": "RED_4",
+    "trait": "",
+    "question_id": "_92",
     "text": "Laughter resets my nervous system like nothing else.",
     "options": [
       "1 - Very much unlike me",
@@ -1105,7 +1105,7 @@
   },
   {
     "trait": "Mindful Presence",
-    "question_id": "MIN_1",
+    "question_id": "MIN_93",
     "text": "I\u2019m driven to make sense of existence and experience.",
     "options": [
       "1 - Very much unlike me",
@@ -1116,8 +1116,8 @@
     ]
   },
   {
-    "trait": "Mindful Presence",
-    "question_id": "MIN_2",
+    "trait": "",
+    "question_id": "_94",
     "text": "I often connect the dots between things others keep separate.",
     "options": [
       "1 - Very much unlike me",
@@ -1128,8 +1128,8 @@
     ]
   },
   {
-    "trait": "Mindful Presence",
-    "question_id": "MIN_3",
+    "trait": "",
+    "question_id": "_95",
     "text": "Spirituality for me is about resonance, not doctrine.",
     "options": [
       "1 - Very much unlike me",
@@ -1140,8 +1140,8 @@
     ]
   },
   {
-    "trait": "Mindful Presence",
-    "question_id": "MIN_4",
+    "trait": "",
+    "question_id": "_96",
     "text": "I crave depth and cosmic context.",
     "options": [
       "1 - Very much unlike me",
