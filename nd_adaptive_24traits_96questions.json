@@ -1,0 +1,290 @@
+[
+  {
+    "trait": "Creative Divergence",
+    "question_id": "CD_1",
+    "text": "I often generate ideas that seem unusual or ahead of their time.",
+    "options": [
+      "1 - Very much unlike me",
+      "2 - Unlike me",
+      "3 - Neutral",
+      "4 - Like me",
+      "5 - Very much like me"
+    ]
+  },
+  {
+    "trait": "Intense Curiosity",
+    "question_id": "IC_1",
+    "text": "I get completely absorbed in exploring new concepts.",
+    "options": [
+      "1 - Very much unlike me",
+      "2 - Unlike me",
+      "3 - Neutral",
+      "4 - Like me",
+      "5 - Very much like me"
+    ]
+  },
+  {
+    "trait": "Pattern-Based Reasoning",
+    "question_id": "PBR_1",
+    "text": "I intuitively notice patterns others miss.",
+    "options": [
+      "1 - Very much unlike me",
+      "2 - Unlike me",
+      "3 - Neutral",
+      "4 - Like me",
+      "5 - Very much like me"
+    ]
+  },
+  {
+    "trait": "Quest for Knowledge",
+    "question_id": "QFK_1",
+    "text": "When I care about a subject, I absorb knowledge rapidly.",
+    "options": [
+      "1 - Very much unlike me",
+      "2 - Unlike me",
+      "3 - Neutral",
+      "4 - Like me",
+      "5 - Very much like me"
+    ]
+  },
+  {
+    "trait": "Big Picture Wiring",
+    "question_id": "BPW_1",
+    "text": "I naturally zoom out and consider multiple layers at once.",
+    "options": [
+      "1 - Very much unlike me",
+      "2 - Unlike me",
+      "3 - Neutral",
+      "4 - Like me",
+      "5 - Very much like me"
+    ]
+  },
+  {
+    "trait": "Fortitude",
+    "question_id": "F_1",
+    "text": "I often keep going despite setbacks others might not see.",
+    "options": [
+      "1 - Very much unlike me",
+      "2 - Unlike me",
+      "3 - Neutral",
+      "4 - Like me",
+      "5 - Very much like me"
+    ]
+  },
+  {
+    "trait": "Persistence",
+    "question_id": "P_1",
+    "text": "I recover from failures and come back stronger.",
+    "options": [
+      "1 - Very much unlike me",
+      "2 - Unlike me",
+      "3 - Neutral",
+      "4 - Like me",
+      "5 - Very much like me"
+    ]
+  },
+  {
+    "trait": "Radical Honesty",
+    "question_id": "RH_1",
+    "text": "I speak honestly even when it\u2019s awkward.",
+    "options": [
+      "1 - Very much unlike me",
+      "2 - Unlike me",
+      "3 - Neutral",
+      "4 - Like me",
+      "5 - Very much like me"
+    ]
+  },
+  {
+    "trait": "Energy",
+    "question_id": "E_1",
+    "text": "When I\u2019m engaged, my energy is full-on.",
+    "options": [
+      "1 - Very much unlike me",
+      "2 - Unlike me",
+      "3 - Neutral",
+      "4 - Like me",
+      "5 - Very much like me"
+    ]
+  },
+  {
+    "trait": "Emotional Attachment",
+    "question_id": "EA_1",
+    "text": "I long for real closeness with people I trust.",
+    "options": [
+      "1 - Very much unlike me",
+      "2 - Unlike me",
+      "3 - Neutral",
+      "4 - Like me",
+      "5 - Very much like me"
+    ]
+  },
+  {
+    "trait": "Empathy",
+    "question_id": "E_1",
+    "text": "I easily absorb other people\u2019s emotions.",
+    "options": [
+      "1 - Very much unlike me",
+      "2 - Unlike me",
+      "3 - Neutral",
+      "4 - Like me",
+      "5 - Very much like me"
+    ]
+  },
+  {
+    "trait": "Social Intuition / People Skills ",
+    "question_id": "SIPS_1",
+    "text": "I pick up on social undercurrents others miss.",
+    "options": [
+      "1 - Very much unlike me",
+      "2 - Unlike me",
+      "3 - Neutral",
+      "4 - Like me",
+      "5 - Very much like me"
+    ]
+  },
+  {
+    "trait": "Social Collaboration ",
+    "question_id": "SC_1",
+    "text": "When I belong, I show fierce loyalty.",
+    "options": [
+      "1 - Very much unlike me",
+      "2 - Unlike me",
+      "3 - Neutral",
+      "4 - Like me",
+      "5 - Very much like me"
+    ]
+  },
+  {
+    "trait": "Societal Skills",
+    "question_id": "SS_1",
+    "text": "I\u2019m highly sensitive to injustice or hypocrisy.",
+    "options": [
+      "1 - Very much unlike me",
+      "2 - Unlike me",
+      "3 - Neutral",
+      "4 - Like me",
+      "5 - Very much like me"
+    ]
+  },
+  {
+    "trait": "Group Responsibility",
+    "question_id": "GR_1",
+    "text": "I tend to take charge in messy or ambiguous situations.",
+    "options": [
+      "1 - Very much unlike me",
+      "2 - Unlike me",
+      "3 - Neutral",
+      "4 - Like me",
+      "5 - Very much like me"
+    ]
+  },
+  {
+    "trait": "Emotional Regulation",
+    "question_id": "ER_1",
+    "text": "I rebound emotionally even after intense lows.",
+    "options": [
+      "1 - Very much unlike me",
+      "2 - Unlike me",
+      "3 - Neutral",
+      "4 - Like me",
+      "5 - Very much like me"
+    ]
+  },
+  {
+    "trait": "Selflessness / modesty",
+    "question_id": "SM_1",
+    "text": "I prefer honesty over appearances.",
+    "options": [
+      "1 - Very much unlike me",
+      "2 - Unlike me",
+      "3 - Neutral",
+      "4 - Like me",
+      "5 - Very much like me"
+    ]
+  },
+  {
+    "trait": "Risk Awareness",
+    "question_id": "RA_1",
+    "text": "I notice hidden risks others miss.",
+    "options": [
+      "1 - Very much unlike me",
+      "2 - Unlike me",
+      "3 - Neutral",
+      "4 - Like me",
+      "5 - Very much like me"
+    ]
+  },
+  {
+    "trait": "Self Control",
+    "question_id": "SC_1",
+    "text": "I\u2019ve developed creative ways to manage my energy or focus.",
+    "options": [
+      "1 - Very much unlike me",
+      "2 - Unlike me",
+      "3 - Neutral",
+      "4 - Like me",
+      "5 - Very much like me"
+    ]
+  },
+  {
+    "trait": "Aesthetic Appreciation",
+    "question_id": "AA_1",
+    "text": "I\u2019m deeply moved by sound, light, or touch.",
+    "options": [
+      "1 - Very much unlike me",
+      "2 - Unlike me",
+      "3 - Neutral",
+      "4 - Like me",
+      "5 - Very much like me"
+    ]
+  },
+  {
+    "trait": "Humility",
+    "question_id": "H_1",
+    "text": "When I feel grateful, it hits me intensely.",
+    "options": [
+      "1 - Very much unlike me",
+      "2 - Unlike me",
+      "3 - Neutral",
+      "4 - Like me",
+      "5 - Very much like me"
+    ]
+  },
+  {
+    "trait": "Optimism",
+    "question_id": "O_1",
+    "text": "I hold on to visions of what\u2019s possible.",
+    "options": [
+      "1 - Very much unlike me",
+      "2 - Unlike me",
+      "3 - Neutral",
+      "4 - Like me",
+      "5 - Very much like me"
+    ]
+  },
+  {
+    "trait": "Redemptive Absurdism",
+    "question_id": "RA_1",
+    "text": "I use humor to cope with difficulty.",
+    "options": [
+      "1 - Very much unlike me",
+      "2 - Unlike me",
+      "3 - Neutral",
+      "4 - Like me",
+      "5 - Very much like me"
+    ]
+  },
+  {
+    "trait": "Mindful Presence",
+    "question_id": "MP_1",
+    "text": "I\u2019m driven to make sense of existence and experience.",
+    "options": [
+      "1 - Very much unlike me",
+      "2 - Unlike me",
+      "3 - Neutral",
+      "4 - Like me",
+      "5 - Very much like me"
+    ]
+  }
+]
