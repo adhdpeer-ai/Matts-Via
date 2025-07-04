@@ -1,53 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>ND-Adaptive Strengths Survey</title>
-  <style>
-    body { font-family: Arial, sans-serif; margin: 2em; }
-    .question { margin-bottom: 1.5em; }
-    .trait-title { font-weight: bold; margin-top: 2em; }
-  </style>
+    <meta charset="UTF-8">
+    <title>ND-Adaptive Strengths Survey</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 800px; margin: auto; padding: 20px; }
+        .question-block { margin-bottom: 20px; }
+        label { display: block; margin-top: 10px; }
+    </style>
 </head>
 <body>
-  <h1>ND-Adaptive Strengths Survey</h1>
-  <div id="survey">Loading questions...</div>
-  <button onclick="submitAnswers()">Submit</button>
-  <script>
-    async function loadQuestions() {
-      try {
-        const response = await fetch('questions.json');
-        const data = await response.json();
-        const container = document.getElementById('survey');
-        container.innerHTML = '';
-        data.forEach((q, index) => {
-          const div = document.createElement('div');
-          div.className = 'question';
-          let optionsHTML = '';
-          q.options.forEach((opt, i) => {
-            optionsHTML += `
-              <label>
-                <input type="radio" name="q${index}" value="${i + 1}"/> ${opt}
-              </label><br>`;
-          });
-          div.innerHTML = `
-            <div class="trait-title">(${q.question_id}) ${q.text}</div>
-            ${optionsHTML}
-          `;
-          container.appendChild(div);
+    <h1>ND-Adaptive Strengths Survey</h1>
+    <form id="surveyForm">
+        <div id="questionsContainer">Loading questions...</div>
+        <button type="submit">Submit</button>
+    </form>
+    <div id="resultsContainer"></div>
+    <script>
+        async function loadQuestions() {
+            const response = await fetch('questions.json');
+            const questions = await response.json();
+            const container = document.getElementById('questionsContainer');
+            container.innerHTML = '';
+
+            questions.forEach((question, index) => {
+                const block = document.createElement('div');
+                block.className = 'question-block';
+
+                const questionLabel = document.createElement('label');
+                questionLabel.innerText = question.text;  // Removed ID from display
+                block.appendChild(questionLabel);
+
+                [1, 2, 3, 4, 5].forEach(value => {
+                    const radio = document.createElement('input');
+                    radio.type = 'radio';
+                    radio.name = question.id;
+                    radio.value = value;
+                    radio.required = true;
+
+                    const label = document.createElement('label');
+                    label.innerText = value + ' - ' + ["Very much unlike me", "Unlike me", "Neutral", "Like me", "Very much like me"][value - 1];
+                    label.prepend(radio);
+                    block.appendChild(label);
+                });
+
+                container.appendChild(block);
+            });
+        }
+
+        document.getElementById('surveyForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const formData = new FormData(e.target);
+            const results = {};
+            for (let [key, value] of formData.entries()) {
+                results[key] = parseInt(value);
+            }
+            document.getElementById('resultsContainer').innerText = JSON.stringify(results, null, 2);
         });
-      } catch (err) {
-        document.getElementById('survey').innerText = 'Failed to load questions.';
-        console.error(err);
-      }
-    }
 
-    function submitAnswers() {
-      alert("Answers submitted. (This can be extended to store/send data.)");
-    }
-
-    loadQuestions();
-  </script>
+        loadQuestions();
+    </script>
 </body>
 </html>
