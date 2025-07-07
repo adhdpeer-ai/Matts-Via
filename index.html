@@ -1,48 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>ND-Adaptive Strengths Survey</title>
-  <style>
-    body { font-family: Arial, sans-serif; padding: 20px; background: #f9f9f9; }
-    .question { margin: 20px 0; }
-  </style>
+    <meta charset="UTF-8">
+    <title>ND-Adaptive Strengths Survey</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 800px; margin: auto; padding: 20px; }
+        .question-block { margin-bottom: 20px; }
+        label { display: block; margin-top: 10px; }
+    </style>
 </head>
 <body>
-  <h1>ND-Adaptive Strengths Survey</h1>
-  <form id="survey-form"></form>
-  <button onclick="submitSurvey()">Submit</button>
+    <h1>ND-Adaptive Strengths Survey</h1>
+    <form id="surveyForm">
+        <div id="questionsContainer">Loading questions...</div>
+        <button type="submit">Submit</button>
+    </form>
+    <div id="resultsContainer"></div>
+    <script>
+        async function loadQuestions() {
+            const response = await fetch('questions.json');
+            const questions = await response.json();
+            const container = document.getElementById('questionsContainer');
+            container.innerHTML = '';
 
-  <script>
-    async function loadQuestions() {
-      try {
-        const response = await fetch('questions.json');
-        const questions = await response.json();
-        const form = document.getElementById('survey-form');
-        questions.forEach(q => {
-          const container = document.createElement('div');
-          container.className = 'question';
-          container.innerHTML = `<p>${q.text}</p>` +
-            [1, 2, 3, 4, 5].map(val =>
-              `<label><input type="radio" name="${q.id}" value="${val}">${val}</label>`
-            ).join(' ');
-          form.appendChild(container);
+            questions.forEach((question, index) => {
+                const block = document.createElement('div');
+                block.className = 'question-block';
+
+                const questionLabel = document.createElement('label');
+                questionLabel.innerText = question.text;  // Removed ID from display
+                block.appendChild(questionLabel);
+
+                [1, 2, 3, 4, 5].forEach(value => {
+                    const radio = document.createElement('input');
+                    radio.type = 'radio';
+                    radio.name = question.id;
+                    radio.value = value;
+                    radio.required = true;
+
+                    const label = document.createElement('label');
+                    label.innerText = value + ' - ' + ["Very much unlike me", "Unlike me", "Neutral", "Like me", "Very much like me"][value - 1];
+                    label.prepend(radio);
+                    block.appendChild(label);
+                });
+
+                container.appendChild(block);
+            });
+        }
+
+        document.getElementById('surveyForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const formData = new FormData(e.target);
+            const results = {};
+            for (let [key, value] of formData.entries()) {
+                results[key] = parseInt(value);
+            }
+            document.getElementById('resultsContainer').innerText = JSON.stringify(results, null, 2);
         });
-      } catch (error) {
-        document.body.innerHTML += '<p style="color:red;">Failed to load questions.</p>';
-      }
-    }
 
-    function submitSurvey() {
-      const data = {};
-      document.querySelectorAll('input[type=radio]:checked').forEach(input => {
-        data[input.name] = input.value;
-      });
-      console.log('Survey submitted:', data);
-      alert('Thank you for your submission!');
-    }
-
-    loadQuestions();
-  </script>
+        loadQuestions();
+    </script>
 </body>
 </html>
